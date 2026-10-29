@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Skill eval/benchmark workspaces and packaged output
+*-workspace/
+*.zip
+
+# Credentials (never commit)
+secrets/
+.env
+.env.*
+*.key
+*.pem
