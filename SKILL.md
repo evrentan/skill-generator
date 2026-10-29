@@ -1,7 +1,7 @@
 ---
 name: skill-generator
 description: Generate new agent skills from scratch and update, refactor, or improve existing skills the user points to. Covers interviewing the user, drafting SKILL.md with bundled scripts/references/assets, auditing an existing skill against best practices, applying targeted edits, running test prompts with and without the skill, grading results, and tuning the description so the skill triggers reliably. Use this whenever the user wants to create, write, scaffold, generate, update, edit, fix, improve, refactor, extend, merge, split, review, or benchmark a skill or SKILL.md, wants to turn a workflow or conversation into a reusable skill, or says a skill is not triggering or not behaving as expected, even if they do not say the word "generator".
-license: Apache-2.0. Adapted from Anthropic's skill-creator; see LICENSE.txt
+license: Apache-2.0. Adapted from Anthropic's skill-creator; see LICENSE
 metadata:
   version: "1.1.0"
 ---

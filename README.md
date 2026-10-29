@@ -79,4 +79,4 @@ skill-generator/
 
 ## License
 
-Apache License 2.0, see [LICENSE.txt](LICENSE.txt). Adapted from Anthropic's `skill-creator` skill.
+Apache License 2.0, see [LICENSE](LICENSE). Adapted from Anthropic's [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator) skill.
