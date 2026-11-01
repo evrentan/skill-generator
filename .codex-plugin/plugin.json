@@ -1,0 +1,39 @@
+{
+  "name": "skill-generator",
+  "version": "1.0.0",
+  "description": "Create, update and benchmark agent skills: interview the user, draft SKILL.md with bundled files, validate the structure, test with and without the skill, grade the results and tune the description so it triggers reliably.",
+  "author": {
+    "name": "Evren Tan",
+    "url": "https://github.com/evrentan"
+  },
+  "homepage": "https://github.com/evrentan/skill-generator",
+  "repository": "https://github.com/evrentan/skill-generator",
+  "license": "Apache-2.0",
+  "keywords": [
+    "skills",
+    "agent-skills",
+    "skill-authoring",
+    "evals",
+    "prompt-engineering",
+    "developer-tools"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "skill-generator",
+    "shortDescription": "Create, fix and benchmark agent skills",
+    "longDescription": "Interview-driven creation of new agent skills and targeted updates to existing ones, with a stdlib validator, with-and-without-skill test runs, graded results, blind A/B comparison and description tuning so skills trigger reliably.",
+    "developerName": "Evren Tan",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/evrentan/skill-generator",
+    "brandColor": "#8B5CF6",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Turn what we just did into a reusable skill."
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "skill-generator",
+  "interface": {
+    "displayName": "skill-generator"
+  },
+  "plugins": [
+    {
+      "name": "skill-generator",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

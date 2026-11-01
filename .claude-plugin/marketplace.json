@@ -1,0 +1,14 @@
+{
+  "name": "skill-generator",
+  "owner": {
+    "name": "Evren Tan",
+    "url": "https://github.com/evrentan"
+  },
+  "plugins": [
+    {
+      "name": "skill-generator",
+      "source": "./",
+      "description": "Create, update and benchmark agent skills: interview the user, draft SKILL.md with bundled files, validate the structure, test with and without the skill, grade the results and tune the description so it triggers reliably."
+    }
+  ]
+}

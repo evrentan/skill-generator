@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest a new check, mode or improvement.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        skill-generator stays portable across agent harnesses and never
+        handles credential files; requests that break either rule are out
+        of scope.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Create mode
+        - Update mode
+        - Test and grading loop
+        - Evaluate (A/B comparison)
+        - Description tuning
+        - quick_validate.py
+        - New area
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What kind of skill are you trying to build or fix, and what is missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: For a validator check, describe what it should flag and whether it is an error or a warning.
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Contribution
+      options:
+        - label: I'd like to open a pull request for this

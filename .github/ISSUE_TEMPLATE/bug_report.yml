@@ -1,0 +1,63 @@
+name: Bug report
+description: Something in skill-generator does not work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Redact before you paste:** remove tokens,
+        hostnames, company names, customer data and private skill content
+        from prompts, files and output. Security vulnerabilities go to
+        [private reporting](https://github.com/evrentan/skill-generator/security/advisories/new) instead.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Create mode
+        - Update mode
+        - Test and grading loop
+        - Evaluate (A/B comparison)
+        - Description tuning
+        - quick_validate.py
+        - Installation
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you asked or ran, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Agent prompt or validator command, and the relevant (redacted) skill files.
+      render: shell
+  - type: textarea
+    id: output
+    attributes:
+      label: Output or error (redacted)
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: skill-generator version
+      description: "`metadata.version` in SKILL.md"
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent tool and version
+      placeholder: "Devin, Claude Code, Codex, Cursor, Windsurf, ..."
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS and Python version
+      placeholder: "macOS 15, Python 3.13"

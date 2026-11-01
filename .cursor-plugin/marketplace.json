@@ -1,0 +1,20 @@
+{
+  "name": "skill-generator",
+  "owner": {
+    "name": "Evren Tan"
+  },
+  "metadata": {
+    "description": "Create, update and benchmark agent skills: interview the user, draft SKILL.md with bundled files, validate the structure, test with and without the skill, grade the results and tune the description so it triggers reliably.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-generator",
+      "source": ".",
+      "description": "Create, update and benchmark agent skills: interview the user, draft SKILL.md with bundled files, validate the structure, test with and without the skill, grade the results and tune the description so it triggers reliably.",
+      "version": "1.0.0",
+      "license": "Apache-2.0",
+      "repository": "https://github.com/evrentan/skill-generator"
+    }
+  ]
+}
